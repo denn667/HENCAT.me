@@ -1,0 +1,228 @@
+body{
+    scrollbar-color: #002f;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    position: relative;
+    padding: 0 20px;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+#navbar li a:active{
+    color: #088178;
+}#navbar li a:active::after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.6);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: blue;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+#hero{
+    background-image: url(img/background.jpg)
+}
+#hero h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #d3d3d3;
+    font-size: 40px;
+}
+#hero span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#hero .span{
+    color: red;
+    font-size: 30px;
+}
+#about-us{
+    background: lightskyblue;
+    justify-content: space-around;
+}
+#Feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#Feature .fe-box{
+    width: 220px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+#Feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+#Feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088178;
+    background-color: #fddde4;
+}#Feature .fe-box:nth-child(2) h6{
+    background: red;
+}#Feature .fe-box:nth-child(3) h6{
+    background: blue;
+}
+.section{
+    display: flex;
+    border-radius: 5px;
+}
+#Newsletter .form{
+    display: flex;
+    width: 40%;
+
+}
+#Newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: blue;
+}
+#Newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+#Newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+}
+#Newsletter p span{
+    color: #ff3b1b;
+}
+#Newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 13px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#Newsletter button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #fff;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer .logo{
+    margin-bottom: 30px;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: #000;
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+    color: #000;
+}
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+.btn{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #fff;
+    background-color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.wrapper{
+    display: flex;
+    background: #000;
+}
+.wrapper h1{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
